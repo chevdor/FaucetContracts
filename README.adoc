@@ -1,0 +1,14 @@
+= Faucet Contracts
+
+== Intro
+
+This is a set of Ethereum Smart Contracts useful when operating a faucet.
+
+== MultiSend
+
+Multisend allows sending funds to several accounts in one shot.
+You provide the list of recipients, a message and send Ether along you call. Each recipient receives an equal amount of Ether.
+
+== FaucetSend
+
+FaucetSend is an evolution of MultiSend that tracks down who sent what, allow users to send back unused coins and allow users operating the faucet to get a fair share of the funds sent back by the users.
