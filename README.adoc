@@ -16,3 +16,8 @@ https://kovan.etherscan.io/address/0x2230affb1dd23c8ff0bb6c5b99ecaf8f64fdf066
 FaucetSend is an evolution of MultiSend that tracks down who sent what, allow users to send back unused coins and allow users operating the faucet to get a fair share of the funds sent back by the users.
 
 https://kovan.etherscan.io/address/0xe6fdf91d942137db636af7de0c545834f2429fd0#code
+
+== Throttled Faucet
+
+The problem with faucets is that there is always one to abuse it.
+The throttled faucet store the identity of the callers and contains the rules applied by the faucet.
